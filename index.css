@@ -1,0 +1,27 @@
+body {
+    width: 60%; /* Limita a largura a 80% da tela */
+    margin: 0 auto; /* Centraliza o body horizontalmente */
+    padding: 0; /* Remove padding padrão, se necessário */
+}
+.img-perfil{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+}
+
+.infos{
+    text-align: center;
+}
+
+#Projetos h1{
+    text-align: left;
+    font-size: 30px;
+    color: #000000;
+}
+
+.card-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
