@@ -1,5 +1,5 @@
 body {
-    width: 60%; /* Limita a largura a 80% da tela */
+    width: 80%; /* Limita a largura a 80% da tela */
     margin: 0 auto; /* Centraliza o body horizontalmente */
     padding: 0; /* Remove padding padrão, se necessário */
 }
@@ -24,4 +24,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.card-projetos .card{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
 }
