@@ -30,13 +30,13 @@ h3{
     color: grey;
 }
 #Habilidades{
-    display: inline-block;
-    justify-content: space-between;
-    width: 80px;
-    margin-top: 20px;
-    background-color: gray;
-    border-radius: 0.2em;
-    color: white;
+    display: inline-block; 
+    background-color: #ccc; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
 }
 #Projetos h1{
     text-align: left;
